@@ -1,17 +1,16 @@
 package com.baconatornoveg.culinarydelights;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.ItemBlock;
 
-public class CulinaryDMachine extends Block {
+public class CulinaryDMachine extends CulinaryDBlockBase {
 
-	public CulinaryDMachine(Material material, String regName) {
-		super(material);
+	public CulinaryDMachine(String name) {
+		super(Material.IRON, name);
+
+		this.setHardness(3f);
+		this.setResistance(5f);
 		
 		this.setCreativeTab(CulinaryDelights.tabCulDel);
-		this.setRegistryName(regName);
-		this.setUnlocalizedName(this.getRegistryName().toString());
 	}
 
 }
