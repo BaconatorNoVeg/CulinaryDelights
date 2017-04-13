@@ -1,2 +1,6 @@
-tile.culinarydelights:blender.name=Blender
-tile.culinarydelights:cuttingboard.name=Cutting Board
+tile.block_blender.name=Blender
+tile.block_cutting_board.name=Cutting Board
+tile.block_food_processor.name=Food Processor
+tile.block_meat_grinder.name=Meat Grinder
+
+itemGroup.culinarydelights=Culinary Delights
