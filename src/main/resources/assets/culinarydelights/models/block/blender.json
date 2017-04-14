@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "front": "culinarydelights:blocks/block_blender_front",
+    "top": "culinarydelights:blocks/block_blender_top",
+    "side": "culinarydelights:blocks/block_blender_side",
+    "bottom": "culinarydelights:blocks/block_blender_bot"
+  }
+}

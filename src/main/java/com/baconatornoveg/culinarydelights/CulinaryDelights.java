@@ -34,7 +34,7 @@ public class CulinaryDelights
     @SidedProxy(serverSide = "com.baconatornoveg.culinarydelights.proxy.CommonProxy", clientSide = "com.baconatornoveg.culinarydelights.proxy.ClientProxy")
     public static CommonProxy proxy;
 
-    //Remove these in future builds, blocks now registered through CulinaryDBlocks
+    //Remove these in future builds, block now registered through CulinaryDBlocks
     /*public static CulinaryDMachine blender;
     public static CulinaryDMachine cuttingBoard;
     public static ItemBlock blenderItemBlock;
