@@ -5,12 +5,10 @@
     }
   },
   "variants": {
-    "normal": {
       "facing=south":{"model": "culinarydelights:blender"},
       "facing=east":{"model": "culinarydelights:blender", "y":270},
       "facing=west":{"model": "culinarydelights:blender", "y":90},
-      "facing=north":{"model": "culinarydelights:blender", "y":180}
-    },
+      "facing=north":{"model": "culinarydelights:blender", "y":180},
     "inventory": {
       "model": "culinarydelights:blender"
     }
