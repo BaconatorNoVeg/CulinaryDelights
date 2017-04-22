@@ -1,6 +1,8 @@
 package com.baconatornoveg.culinarydelights;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -25,6 +27,10 @@ public class CulinaryDBlocks {
 
         if (block instanceof CulinaryDBlockBase) {
             ((CulinaryDBlockBase)block).registerItemModel(itemBlock);
+        }
+
+        if (block instanceof CulinaryDTileEntity) {
+            GameRegistry.registerTileEntity(((CulinaryDTileEntity<?>)block).getTileEntityClass(), block.getRegistryName().toString());
         }
 
         return block;
