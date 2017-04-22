@@ -1,9 +1,9 @@
 package com.baconatornoveg.culinarydelights;
 
+import com.baconatornoveg.culinarydelights.blocks.CulinaryDBlocks;
 import com.baconatornoveg.culinarydelights.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
-import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;

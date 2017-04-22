@@ -1,8 +1,7 @@
-package com.baconatornoveg.culinarydelights;
+package com.baconatornoveg.culinarydelights.blocks;
 
+import com.baconatornoveg.culinarydelights.CulinaryDTileEntity;
 import net.minecraft.block.Block;
-import net.minecraft.block.properties.PropertyDirection;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 

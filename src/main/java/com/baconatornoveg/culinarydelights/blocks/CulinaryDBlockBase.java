@@ -1,5 +1,6 @@
-package com.baconatornoveg.culinarydelights;
+package com.baconatornoveg.culinarydelights.blocks;
 
+import com.baconatornoveg.culinarydelights.CulinaryDelights;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.material.Material;
