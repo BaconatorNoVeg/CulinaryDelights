@@ -1,4 +1,4 @@
-package com.baconatornoveg.culinarydelights;
+package com.baconatornoveg.culinarydelights.blocks;
 
 import com.baconatornoveg.culinarydelights.blocks.CulinaryDBlockBase;
 import jline.internal.Nullable;
