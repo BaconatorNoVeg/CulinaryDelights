@@ -1,0 +1,21 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "maple": "culinarydelights:materials/maple64"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 1.0, 0.0, 3.0 ], 
+            "to": [ 15.0, 1.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#maple", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "east": { "texture": "#maple", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+                "south": { "texture": "#maple", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "west": { "texture": "#maple", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+                "up": { "texture": "#maple", "uv": [ 0.0, 0.0, 14.0, 10.0 ] },
+                "down": { "texture": "#maple", "uv": [ 0.0, 0.0, 14.0, 10.0 ] }
+            }
+        }
+    ]
+}

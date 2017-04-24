@@ -1,6 +1,7 @@
 package com.baconatornoveg.culinarydelights;
 
 import com.baconatornoveg.culinarydelights.blocks.CulinaryDBlocks;
+import com.baconatornoveg.culinarydelights.blocks.CulinaryDGuiHandler;
 import com.baconatornoveg.culinarydelights.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -11,6 +12,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 @Mod(
 		modid = CulinaryDelights.MODID,
@@ -31,6 +33,9 @@ public class CulinaryDelights
     	}
     };
 
+    @Mod.Instance
+    public static CulinaryDelights instance;
+
     @SidedProxy(serverSide = "com.baconatornoveg.culinarydelights.proxy.CommonProxy", clientSide = "com.baconatornoveg.culinarydelights.proxy.ClientProxy")
     public static CommonProxy proxy;
 
@@ -43,6 +48,7 @@ public class CulinaryDelights
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         CulinaryDBlocks.init();
+        NetworkRegistry.INSTANCE.registerGuiHandler(this, new CulinaryDGuiHandler());
     }
     
     

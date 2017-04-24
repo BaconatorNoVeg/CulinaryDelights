@@ -1,20 +1,19 @@
 package com.baconatornoveg.culinarydelights.blocks;
 
-import com.baconatornoveg.culinarydelights.CulinaryDTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CulinaryDBlocks {
 
-    public static CulinaryDMachine blockBlender;
-    public static CulinaryDMachine blockCuttingBoard;
+    public static BlockBlender blockBlender;
+    public static BlockCuttingBoard blockCuttingBoard;
     public static CulinaryDMachine blockMeatGrinder;
     public static CulinaryDMachine blockFoodProcessor;
 
     public static void init() {
-        blockBlender = register(new CulinaryDMachine("block_blender"));
-        blockCuttingBoard = register(new CulinaryDMachine("block_cutting_board"));
+        blockBlender = register(new BlockBlender());
+        blockCuttingBoard = register(new BlockCuttingBoard());
         blockMeatGrinder = register(new CulinaryDMachine("block_meat_grinder"));
         blockFoodProcessor = register(new CulinaryDMachine("block_food_processor"));
 
