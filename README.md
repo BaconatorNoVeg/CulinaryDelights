@@ -6,4 +6,4 @@
 
 This version of the mod is dead. Culinary Delights is currently being rewritten for MC 1.10.2 under the name Culinary Delights 2.
 
-Thank you. :)
+Thank you.
